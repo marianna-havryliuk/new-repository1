@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.maryana.maven</groupId>
+    <artifactId>practice-maven-project01</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.9.0</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+
+    <packaging>jar</packaging>
+
+    <name>Practicing Maven</name>
+    <description>This is a project to practice Maven features</description>
+    <url>practice-maven.com</url>
+
+    <licenses>
+        <license>
+            <name>SS-FF-DD</name>
+            <comments>Free for all</comments>
+        </license>
+    </licenses>
+
+    <organization>
+        <url>lpnu.ua</url>
+        <name>LPNU</name>
+    </organization>
+
+    <developers>
+        <developer>
+            <name>Maryana</name>
+            <email>mariana.havryliuk.knmz.2019@lpnu.ua</email>
+        </developer>
+    </developers>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.7.1</version>
+            </plugin>
+        </plugins>
+    </build>
+
+
+
+</project>
