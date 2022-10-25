@@ -26,8 +26,8 @@ public class Rectangle {
     }
 
     public void viewRectangle() {
-        System.out.println("Height: " + height);
-        System.out.println("Length: " + length);
+        System.out.println("Height, h = " + height);
+        System.out.println("Length, l = " + length);
     }
 
     public double calculatePerimeter () {
