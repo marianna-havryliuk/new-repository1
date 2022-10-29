@@ -6,9 +6,9 @@ public class Main {
         Rectangle rectangle = new Rectangle(20, 40);
         rectangle.viewRectangle();
 
-        System.out.println("Perimeter of the Rectangle, P = " + rectangle.calculatePerimeter());
+        System.out.println("Perimeter of the Rectangle, P = (h + l) * 2 = " + rectangle.calculatePerimeter());
 
-        System.out.println("Square of the Rectangle, S = " + rectangle.calculateSquare());
+        System.out.println("Square of the Rectangle, S = h * l = " + rectangle.calculateSquare());
 
     }
 }
