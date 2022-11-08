@@ -8,6 +8,7 @@
     <artifactId>practice-maven-project01</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -36,26 +37,39 @@
     </licenses>
 
     <organization>
-        <url>lpnu.ua</url>
-        <name>LPNU</name>
+        <url>https://lpnu.ua/</url>
+        <name>Lviv Polytechnic National University</name>
     </organization>
 
     <developers>
         <developer>
-            <name>Maryana</name>
+            <name>Mariana</name>
             <email>mariana.havryliuk.knmz.2019@lpnu.ua</email>
         </developer>
     </developers>
+
+    <repositories>
+        <repository>
+            <name>my-repo</name>
+            <id>repo</id>
+            <url>my-repo.com</url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <url>plugin.com</url>
+            <id>plugins</id>
+        </pluginRepository>
+    </pluginRepositories>
 
     <build>
         <plugins>
             <plugin>
                 <artifactId>maven-site-plugin</artifactId>
-                <version>3.7.1</version>
+                <version>3.3</version>
             </plugin>
         </plugins>
     </build>
-
-
 
 </project>
